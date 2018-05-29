@@ -1,7 +1,7 @@
-"# FilletEdges" 
+# FilletEdges
 
 # Preview Of FilletEdges Working
-[Imgur](https://i.imgur.com/VCWL7WF.gifv)
+![Imgur](https://i.imgur.com/VCWL7WF.gif)
 
 # Steps to Build
 
