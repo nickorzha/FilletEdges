@@ -37,6 +37,8 @@ static int YORN = 0;
 #define M_PI       3.14159265358979323846   // pi
 #define eOkDialog(arg) \
 ((arg == Acad::eOk) ? true : Mutter(__FILE__, __LINE__, arg))
+
+//-----------------Markus Kraus----------------//
 inline bool Mutter(char *file, int line, Acad::ErrorStatus arg)
 	{
 	ACHAR buf[1024];
@@ -67,7 +69,7 @@ addToDb(AcDbEntity *pEnt, AcDbDatabase *pDb)
 	if (eOk != pBt->getAt(ACDB_MODEL_SPACE, pMs, kForWrite)) return false;
 	return eOk == unique_db_ptr<AcDbBlockTableRecord>(pMs)->appendAcDbEntity(ent.get());
 }
-
+//-----------------------//
 
 static void usage_test()
 {
